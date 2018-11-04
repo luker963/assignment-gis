@@ -19,7 +19,9 @@ Build a map-based application, which lets the user see geo-based data on a map a
 ## My project
 
 Na urovni mesta (na zaklade inputu od usera) najde parky, zahrady a mestsku zelen a zobrazi na mape + mozno nejake infoo tych parkoch, zahradach etc.
+
 Podla cesty, ktorou sa vstupuje / vystupuje z mesta (user input) zistit frekventovanost podla gps (openstreetmap ma gps trace vrstvu, odtial by sa to dalo tahat)
+
 Hladanie parkov a zahrad v meste (user input) podla nadmorskej vysky
 
 Fill in (either in English, or in Slovak):
