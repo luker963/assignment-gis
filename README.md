@@ -22,7 +22,7 @@ Podla hotela zadaneho od pouzivatela najde blizke parky, zahrady a mestsku zelen
 
 Podla zvolenych pamiatok najde najblizsie zastavky MHD a najde trasu cez vsetky pamiatky.
 
-Vypocitat priemernu cenu X* hotelov v zadanej oblasti
+Vypocitat priemernu cenu X* hotelov v zadanej oblasti pomocou heat-mapy
 
 Na urovni mesta (na zaklade inputu od usera) najde parky, zahrady a mestsku zelen a zobrazi na mape + mozno nejake info o tych parkoch, zahradach etc.
 
