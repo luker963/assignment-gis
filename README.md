@@ -20,7 +20,7 @@ Build a map-based application, which lets the user see geo-based data on a map a
 
 Podla hotela zadaneho od pouzivatela najde blizke parky, zahrady a mestsku zelen, a zobrazi vzdialenost po ceste.
 
-Podla zvolenych pamiatok najde najblizsie zastavky MHD a najde trasu cez vsetky pamiatky.
+Podla zvolenych pamiatok najde najblizsie zastavky MHD.
 
 Vypocitat priemernu cenu X* hotelov v zadanej oblasti pomocou heat-mapy
 
