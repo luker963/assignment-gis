@@ -18,17 +18,11 @@ Build a map-based application, which lets the user see geo-based data on a map a
 
 ## My project
 
-Podla hotela zadaneho od pouzivatela najde blizke parky, zahrady a mestsku zelen, a zobrazi vzdialenost po ceste.
+Podla hotela zadaneho od pouzivatela najde blizke parky, zahrady a mestsku zelen, a zobrazi cestu pri ktorej hotel stoji.
 
-Podla zvolenych pamiatok najde najblizsie zastavky MHD.
+Podla zvolenych pamiatok najde 2 najblizsie nerovnake zastavky MHD.
 
 Vypocitat priemernu cenu X* hotelov v zadanej oblasti pomocou heat-mapy
-
-Na urovni mesta (na zaklade inputu od usera) najde parky, zahrady a mestsku zelen a zobrazi na mape + mozno nejake info o tych parkoch, zahradach etc.
-
-Podla cesty, ktorou sa vstupuje / vystupuje z mesta (user input) zistit frekventovanost podla gps (openstreetmap ma gps trace vrstvu, odtial by sa to dalo tahat)
-
-Hladanie parkov a zahrad v meste (user input) podla nadmorskej vysky
 
 Fill in (either in English, or in Slovak):
 
