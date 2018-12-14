@@ -18,11 +18,11 @@ Build a map-based application, which lets the user see geo-based data on a map a
 
 ## My project
 
-Podla hotela zadaneho od pouzivatela najde blizke parky, zahrady a mestsku zelen, a zobrazi cestu pri ktorej hotel stoji.
+Podla hotela zadaneho od pouzivatela najde blizke zastavky MHD, a zobrazi cestu pri ktorej hotel stoji.
 
-Podla zvolenych pamiatok najde 2 najblizsie nerovnake zastavky MHD.
+Podla zvolenej pamiatok najde 2 najblizsie nerovnake zastavky MHD.
 
-Vypocitat priemernu cenu X* hotelov v zadanej oblasti pomocou heat-mapy
+Vypocitat priemernu cenu hotelov v zadanej oblasti pomocou heat-mapy
 
 Fill in (either in English, or in Slovak):
 
