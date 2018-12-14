@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PDT Projekt</title>
+
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no'/>
+    {#    Main#}
+    <script src='https://code.jquery.com/jquery-1.11.0.min.js'></script>
+        <link rel="stylesheet" type="text/css" href="../static/css/style.css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    {#Mapbox #}
+    <script src='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css' rel='stylesheet'/>
+    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v1.0.0/leaflet.markercluster.js'></script>
+
+{#    <link rel="stylesheet" type="text/css" href="../static/css/style.css"/>#}
+    {##}
+        <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v1.0.0/MarkerCluster.css'
+              rel='stylesheet'/>
+        <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v1.0.0/MarkerCluster.Default.css'
+              rel='stylesheet'/>
+
+
+</head>
+<body>
+{#<div class="row">#}
+{#    <div class="col-md-2 no-float">#}
+{#        <div class="list-group" id="list-tab" role="tablist">#}
+{##}
+{#            <button class="btn btn-outline-success my-2 my-sm-0" onclick="click_search_button()" type="button">#}
+{#                Search#}
+{#            </button>#}
+{#            <div class="list-group">#}
+{#                <p id="name"><b>Name:</b></p>#}
+{#                <p id="area"><b>Area:</b></p>#}
+{#                <p id="region"><b>Region:</b></p>#}
+{#                <p id="price"><b>Price:</b></p>#}
+{#                <p id="park"><b>Closes parks area:</b></p>#}
+{#                <p id="geo"><b>Lat, long: </b></p>#}
+{#                <br><b>Show closest: </b>#}
+{#                <div id="slidecontainer">#}
+{##}
+{#                    <span>Range:</span> <span id="f" style="font-weight:bold">150</span>#}
+{#                    <p><input type="range" min="100" max="400" value="150" class="slider-color" id="id1"></p>#}
+{##}
+{#                    <script>#}
+{#                        var slideCol = document.getElementById("id1");#}
+{##}
+{#                        var y = document.getElementById("f");#}
+{#                        y.innerHTML = slideCol.value;#}
+{##}
+{#                        slideCol.oninput = function () {#}
+{#                            y.innerHTML = this.value;#}
+{#                        }#}
+{#                    </script>#}
+{##}
+{#                </div>#}
+{#                    <input type="radio" name="radion_check" class="form-check-input" id="CheckShop">#}
+{#                    <label class="form-check-label" for="exampleCheck1">Shop</label>#}
+{#                    <input type="radio" name="radion_check" class="form-check-input"#}
+{#                           id="CheckPharmacy">#}
+{#                    <label class="form-check-label" for="exampleCheck1">Pharmacy</label>#}
+{#                    <input type="radio" name="radion_check" class="form-check-input" id="CheckSchool">#}
+{#                    <label class="form-check-label" for="exampleCheck1">School</label>#}
+{#            </div>#}
+{#        </div>#}
+{#    </div>#}
+{#    <div class="col no-float">#}
+{#        <div id="map" style="width: 100%; height: 100%;"></div>#}
+{#    </div>#}
+{#</div>#}
+
+<div class="container-full">
+<div class="row">
+        <div class="col-md-2 no-float">
+            <div class="list-group" id="list-tab" role="tablist">
+
+                <button class="btn" onclick="show_hotels_prices()" type="button">
+                    Ceny hotelov
+                </button>
+                <button class="btn" onclick="hotels()" type="button">
+                    Hotely
+                </button>
+                <button class="btn" onclick="pamiatky()" type="button">
+                    Pamiatky
+                </button>
+            </div>
+        </div>
+        <div class="col no-float">
+            <div id="map" style='width: 1000px; height: 1000px;'></div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="../static/js/Main.js"></script>
+</body>
+</html>

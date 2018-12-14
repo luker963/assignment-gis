@@ -26,8 +26,8 @@ Vypocitat priemernu cenu X* hotelov v zadanej oblasti pomocou heat-mapy
 
 Fill in (either in English, or in Slovak):
 
-**Application description**: `<fill in>`
+**Application description**: `Touristic information system`
 
-**Data source**: `<fill in>`
+**Data source**: `openstreetmap, gausian distribution`
 
-**Technologies used**: `<fill in>`
+**Technologies used**: `python, flask, mapbox, javascript, jQuery`

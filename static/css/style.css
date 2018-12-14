@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html, body, .container {
+    height: 100%;
+}
+
+.container-full {
+    margin: 2px;
+    padding: 2px;
+    width: 100%;
+    height: 100%;
+    background: white;
+}
+
+#map {
+    position: absolute;
+    top: 2px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#colors {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(247, 246, 255, 0.76);
+    width: 140px;
+    padding: 0;
+}
+
+.row {
+    height: 100%;
+    display: flex;
+}
+
+.mapboxgl-popup {
+    max-width: 400px;
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
